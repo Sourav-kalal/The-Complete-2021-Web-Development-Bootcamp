@@ -1,0 +1,182 @@
+/* Element styling */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #362c2c;
+  margin-bottom: 1rem;
+}
+
+/* Background */
+
+.pink-background {
+  background-color: #ef8172;
+}
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 3% 5% 3% 0;
+}
+
+/* Title */
+
+#title {
+  background: #ff4c68;
+  color: white;
+}
+.Title-head {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 28%;
+}
+.title-img-con {
+  padding: 2%;
+}
+/* Features */
+.features-container {
+  background: white;
+  padding: 7% 0;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.features-head {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.icon {
+  color: #ef8172;
+  margin: 5%;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+.testimonial-container {
+  padding-top: 7%;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-text {
+  padding: 2% 15%;
+  font-weight: 900;
+  line-height: 1.5;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  height: 100px;
+  margin: 2%;
+  width: 100px;
+}
+
+/* Press */
+.press {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.press-image {
+  padding: 0 3%;
+}
+
+/* Pricing */
+
+.price-container {
+  padding: 1% 7%;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.price-head,
+.card-header,
+.card-body-head {
+  font-weight: 700;
+}
+
+.price-title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 990px) {
+  .title-image {
+    margin: 25px auto;
+    width: 60%;
+    display: block;
+    transform: rotate(0deg);
+    position: static;
+  }
+  .row {
+    text-align: center;
+  }
+}
+
+/* Footer section */
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#footer {
+  font-size: medium;
+  padding: 7% 8%;
+  text-align: center;
+}
+
+.social-media {
+  margin: 20px 10px;
+}
